@@ -12,7 +12,7 @@ int main()
 	for (int i = 0; i < N; ++i)
 	{
 		cout << n1 << endl;
-		n1, n2 = n2, n1 + n2
+		n1, n2 = n2, n1 + n2;
 	}
 	
 	return 0;
