@@ -9,8 +9,8 @@ int main()
 	cin >> n1 >> n2;
 	cin >> N;
 
-	cout << n0 << endl;
 	cout << n1 << endl;
+	cout << n2 << endl;
 	for (int i = 0; i < N; ++i)
 	{
 		sum = n1 + n2;
