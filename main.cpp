@@ -9,10 +9,14 @@ int main()
 	cin >> n1 >> n2;
 	cin >> N;
 
+	cout << n0 << endl;
+	cout << n1 << endl;
 	for (int i = 0; i < N; ++i)
 	{
-		cout << n1 << endl;
-		n1, n2 = n2, n1 + n2;
+		sum = n1 + n2;
+		cout << sum << endl;
+		n1 = n2;
+		n2 = sum;
 	}
 	
 	return 0;
